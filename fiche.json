@@ -1,22 +1,31 @@
 {
-  "_aide": "Votre fiche d'identité : la seule source de votre page. Remplacez chaque valeur (à droite des deux-points) par la vôtre, ou collez ici la fiche écrite par le Gem « Ma fiche d'entité ». Aide champ par champ : fiche.md. Exemple complet : fiche.exemple.json.",
   "type": "Person",
-  "nom": "Prénom Nom",
-  "phrase_identite": "Prénom Nom est [votre métier] chez [votre employeur], à [votre ville].",
-  "metier": "[Votre métier]",
+  "nom": "Amélie Frimaudeau",
+  "phrase_identite": "Amélie Frimaudeau est consultante manager chez Sofrecom, à Paris.",
+  "metier": "Consultante Manager",
   "employeur": {
-    "nom": "[Votre employeur ou votre projet]",
-    "url": ""
+    "nom": "Sofrecom",
+    "url": "https://www.sofrecom.com/",
+    "description": "Cabinet de conseil et d'ingénierie du groupe Orange spécialisé dans les télécommunications et la transformation numérique."
   },
-  "ville": "[Votre ville]",
-  "domaines": ["[Domaine 1]", "[Domaine 2]", "[Domaine 3]"],
-  "ce_que_je_fais": "[Deux ou trois phrases : ce que vous faites, pour qui, avec quoi.]",
-  "parcours": "[Une ou deux phrases : d'où vous venez, ce que vous préparez.]",
-  "profils": [
-    { "nom": "LinkedIn", "url": "https://www.linkedin.com/in/votre-profil" }
+  "ville": "Paris",
+  "domaines": [
+    "Marketing produit et opérationnel B2B",
+    "Transformation des parcours client",
+    "Pilotage de programmes complexes",
+    "Performance opérationnelle",
+    "Accompagnement du changement"
   ],
-  "theme": "clair",
-  "couleur_accent": "#2952CC",
+  "ce_que_je_fais": "Au quotidien, je clarifie les besoins, structure les chantiers et fais travailler ensemble les équipes métiers, techniques, data et les partenaires pour préparer les décisions et sécuriser leur mise en œuvre. J'accompagne les équipes marketing et métiers dans l'évolution de leurs offres, de leurs parcours clients et de leur organisation, principalement sur le marché B2B des télécoms.",
+  "parcours": "Mon parcours associe marketing produit et opérationnel B2B, expérience client et conduite de transformations complexes dans le secteur des télécommunications, notamment chez Sofrecom, au sein du groupe Orange. Je poursuis actuellement un MBA Marketing Digital et Intelligence Artificielle à De Vinci Executive Education pour enrichir cette expertise.",
+  "profils": [
+    {
+      "nom": "LinkedIn",
+      "url": "https://www.linkedin.com/in/amélie-f-89a6a915/"
+    }
+  ],
+  "theme": "editorial",
+  "couleur_accent": " #1E3A8A",
   "animations": true,
-  "identifiant_github": "IDENTIFIANT"
+  "identifiant_github": "amelie-frimaudeau"
 }
